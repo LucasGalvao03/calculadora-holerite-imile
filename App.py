@@ -12,7 +12,7 @@ col_input, col_result = st.columns([1, 1])
 with col_input:
     st.subheader("⚙️ Configurações & Proventos")
     
-    salario_base = st.number_input("Salário Base (R$)", value=0, step=50.0)
+    salario_base = st.number_input("Salário Base (R$)", value=2562.50, step=50.0)
     horas_mensais = st.number_input("Base de Horas Mensais", value=220, step=10)
     
     col_dias1, col_dias2 = st.columns(2)
